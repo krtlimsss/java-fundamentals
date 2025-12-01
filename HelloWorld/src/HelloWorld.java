@@ -1,7 +1,7 @@
 /*
  * This is a simple Java program.
  * Class Name: HelloWorld
- * Purpose: To print "Hello World!" on the screen.
+ * Purpose: To print "Hello World!" on the console.
  */
 public class HelloWorld {
     public static void main(String[] args) {

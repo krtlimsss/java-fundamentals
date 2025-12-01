@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/*
+ * This is a simple Java program.
+ * Class Name: OperatorsExample
+ * Purpose: To demonstrate the use and types of different operations in Java
+ */
 public class OperatorsExample {
     public static void main(String[] args) {
 
@@ -27,8 +32,18 @@ public class OperatorsExample {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
         System.out.println("Remainder: " + remainder);
+		
+		boolean isGreater = sum > difference;
+		System.out.println(isGreater);
+		
+		int x = 5;
+		int y = x--;
+		
+		System.out.println(x);
+		System.out.println(y);
 
         input.close();
 
-    }
-}
+    } // end of main method
+	
+} // end of OperatorsExample class
